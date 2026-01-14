@@ -1771,6 +1771,8 @@ event
     .tagBlock('minecraft:needs_diamond_tool')
     .soundType('metal')
 
+
+
 event
     .create('gtceu:undergarden_marker')
 })
@@ -1924,6 +1926,31 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
 
     
 })
+
+// server_scripts/prisma_items.js
+
+StartupEvents.registry('item', event => {
+    const COLORS = ["black", "dark_blue", "dark_green", "dark_aqua", "dark_red", "dark_purple", "gold", "blue", "green", "aqua", "light_purple", "yellow", "white"];
+
+    // Inert component
+    event.create('inert_prisma_smd').displayName('Inert PRISMA SMD');
+    
+    // Single color components+
+    COLORS.forEach(color1 => {
+        event.create(`${color1}_prisma_smd`)
+            .displayName(`${color1.charAt(0).toUpperCase() + color1.slice(1).replace(/_/g, ' ')} PRISMA SMD`);
+    });
+    
+    // Two color combinations
+    COLORS.forEach(color1 => {
+        COLORS.forEach(color2 => {
+            if (color1 !== color2) {
+                event.create(`${color1}_${color2}_prisma_smd`)
+                    .displayName(`${color1.charAt(0).toUpperCase() + color1.slice(1).replace(/_/g, ' ')}-${color2.charAt(0).toUpperCase() + color2.slice(1).replace(/_/g, ' ')} PRISMA SMD`);
+            }
+        });
+    });
+});
 
 
 
