@@ -81,18 +81,6 @@ GTM.fluid_solidifier('solidify_resonance_to_block')
 .itemOutputs('gtceu:resonance_block')
 .duration(97)
 .EUt(7)
-
-
-   GTM.prisma_transfuser('blue_component')
-        .itemInputs('gtceu:inert_prisma_smd')
-        .inputFluids('gtceu:blue_dye 1000')
-        .itemOutputs('gtceu:blue_prisma_smd')
-        .EUt(480)
-        .duration(200)
-        .addCondition(new PrismaticCondition(false, "blue"))
-    
-   
-   
    
    
    
