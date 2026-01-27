@@ -9,6 +9,7 @@
 !/config/
 !/mods/
 !/kubejs/
+!/resourcepacks/
 
 # Runtime/user files
 saves/
