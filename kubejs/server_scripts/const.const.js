@@ -121,7 +121,7 @@ const tiers = [
     /^gtceu:assembler\/casing_.*_firebox/,
     /^gtceu:shaped\/casing_.*/, /gtceu:shaped\/(extreme|large)_(steam|gas|plasma|combustion)_(turbine|engine)/,
     /^gtceu:shaped\/(diesel|steam|gas)_(generator|turbine)_(lv|mv|hv|ev|iv)/,
-    /^gtceu:(shaped|assembler|assembly_line)\/rotor_holder_.*/, /gtceu:shaped\/(lv|mv|hv|ev|iv|luv|zpm|uv|uhv|uev|uiv|uxv|opv|max)_.*(_.*)?(_.*)?(_.*)?/
+    /^gtceu:shaped\/rotor_holder_.*/, /gtceu:(shaped|asseembly|line)\/(lv|mv|hv|ev|iv|luv|zpm|uv|uhv|uev|uiv|uxv|opv|max)_.*(_.*)?(_.*)?(_.*)?/
 ]
 
     let basevoltage = [

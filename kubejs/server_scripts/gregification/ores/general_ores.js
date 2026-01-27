@@ -36,6 +36,7 @@ event.modify("gtceu:naquadah_vein", vein => {
         )})
 
 
+
     event.add("gtceu:highland_aluminium_deposit", vein => {
       vein.weight(35)
         vein.clusterSize(25)
@@ -174,9 +175,6 @@ event.modify("gtceu:naquadah_vein", vein => {
             .density(0.4)
             .radius(5)
         )})
-
-    
-
 
 
 })

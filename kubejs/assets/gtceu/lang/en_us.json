@@ -122,9 +122,12 @@
     "material.gtceu.enstatite": "§7Enstatite",
     "material.gtceu.resonance": "§5§kResonance",
     "material.gtceu.desnium": "§5Desnium",
-    "material.gtceu.rhodipalladic-desnite": "§bῬοδιπαλλαδοδεσνίτης",
+    "material.gtceu.hssd": "§5HSS-DOV",
+    "material.gtceu.osmium_steel": "§1Osmium Steel",
+    "material.gtceu.vintanium": "§4Vintanium",
 
     "material.gtceu.radioactive_fuel_cladding_scrap": "Radioactive Fuel Cladding Scrap",
+    "material.gtceu.radioactive_bronze_ore": "Radioactive.. Radioactive Bronze? How the fuck is that even possible? Like... according to my knowledge, there is not even a natural source of Bronze, let alone Radioactive‽",
 
 
     "material.gtceu.andesite_alloy": "§8Andesite Alloy",
@@ -135,6 +138,7 @@
     "material.gtceu.mechanical_stainless": "§4Mechanical Stainless Steel",
     "material.gtceu.tainted_titanium": "§5Tainted Titanium",
     "material.gtceu.auralloy-omega": "§6Aura§7lloy-Ω",
+    "material.gtceu.rhodipalladic-desnite": "§bῬοδιπαλλαδοδεσνίτης",
 
 
     "material.gtceu.sodium_cyanide": "Sodium Cyanide",
@@ -235,6 +239,18 @@
     "material.gtceu.acidic_mechanical_sludge": "§4Acidic Mechanical Sludge",
     "material.gtceu.alkalized_mechanical_sludge": "§4Alkalized Mechanical Sludge",
     "material.gtceu.mechanical_concentrate": "§4Mechanical Concentrate",
+
+    "material.gtceu.resonite_ore_waste": "8Resonite Ore Waste",
+    "material.gtceu.resonite_slurry": "§5Resonite Slurry",
+    "material.gtceu.resonite_filter_cake": "§5Resonite Filter Cake",
+    "material.gtceu.filtered_resonite_solution": "§5Filtered Resonite Solution",
+    "material.gtceu.resonant_organic_phase": "§dResonant Organic Phase",
+    "material.gtceu.extraction_raffinate": "§7Extraction Raffinate",
+    "material.gtceu.resonite_crystal_suspension": "§dResonite Crystal Suspension",
+    "material.gtceu.crude_resonite_crystal": "§dCrude Resonite Crystal",
+    "material.gtceu.washed_resonite_solution": "§dWashed Resonite Solution",
+    "material.gtceu.harmonic_impurities": "§5Harmonic Impurities",
+    "material.gtceu.sublimation_residue": "§5Sublimation Residue",
 
 
 

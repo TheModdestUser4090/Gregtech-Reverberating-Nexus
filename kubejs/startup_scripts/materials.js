@@ -592,6 +592,7 @@ event.create('crude_resonite_crystal')
     .color(0x9D4EDD) // Purple crystals (still contains oxygen/carbon)
     .components('2x resonite', '1x oxygen', '1x carbon')
     .iconSet(SHINY)
+    .flags(no_decomp)
 
 // STEP 5: Frequency Washing - removes organic residues
 event.create('washed_resonite_solution')
@@ -688,6 +689,7 @@ event.create('sublimation_residue')
         .flags(bolt_and_screw, gear, plates, ring, long_rod, frame, rotor, small_gear, fine_wire)
         .blastTemp(1050, "low", GTValues.VA[GTValues.MV], 500)
         .fluidPipeProperties(1050, 250, true, true, true, false)
+        .cableProperties(GTValues.V[GTValues.EV], 2,2, false)
 
     event.create('mechanical_stainless')
         .ingot()

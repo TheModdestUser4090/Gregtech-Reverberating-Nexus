@@ -9,4 +9,5 @@ ServerEvents.recipes(e => {
     machineIds.forEach((type) => {
         e.remove({output: `ad_astra:${type}`})
     })
+
 })

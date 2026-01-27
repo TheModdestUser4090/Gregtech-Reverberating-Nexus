@@ -126,4 +126,17 @@ ServerEvents.recipes(event => {
 
     event.remove({output: /gtceu:(uhv|uev)_transformer_(1a|2a|4a|8a|16a)/})
 
+
+
+
+
+
+
+    // shitpost
+
+    GTM.metaphysical_metallurgy_tainter('radioactive_bronze_generation')
+    .itemInputs('gtceu:bronze_ingot')
+    .itemOutputs('gtceu:radioactive_bronze_ore_ore')
+    .duration(1)
+    .EUt(34359738352)
 })

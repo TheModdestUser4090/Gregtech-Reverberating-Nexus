@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
 // STEP 1: RESONITE DISSOLUTION
 GTM.chemical_reactor('resonance_dissolution')
     .itemInputs('3x gtceu:resonite_dust')
-    .inputFluids('gtceu:sulfuric_acid 4000', 'minecraft:water 1000')
-    .outputFluids('gtceu:resonite_slurry 5000')
+    .inputFluids('gtceu:infernal_acid 2000', 'minecraft:water 1000')
+    .outputFluids('gtceu:resonite_slurry 3000')
     .itemOutputs('gtceu:resonite_ore_waste_dust')
     .duration(300)
     .EUt(480)
@@ -81,7 +81,6 @@ GTM.fluid_solidifier('solidify_resonance_to_block')
 .itemOutputs('gtceu:resonance_block')
 .duration(97)
 .EUt(7)
-   
    
    
    
@@ -264,6 +263,75 @@ event.recipes.gtceu.chemical_reactor("sodium_cyanide")
         .itemOutputs("32x gtceu:duct_tape")
         .duration(100)
         .EUt(GTValues.VA[GTValues.LV])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //pre-emptive biomancy conversion™
+
+    // Extract all Biomancy digester recipes
+    /*
+    event.forEachRecipe({type: 'biomancy:digesting'}, recipe => {
+        let json = recipe.json
+        
+        // Extract data
+        let input = json.ingredient
+        let output = json.result
+        let nutrientCost = json.nutrientsCost || 0
+        let time = json.processingTime || 100
+        
+        // Create GTCEu digester recipe
+        GTM.digester(`${input}_digestion`)
+            .itemInputs(input)
+            .itemOutputs(output)
+            .inputFluids(`gtceu:sterilized_growth_medium ${nutrientCost}`) // nutrientCost as mb
+            .duration(time * 20)
+            .EUt(GTValues.VA[GTValues.ZPM], 2) // Adjust voltage tier as needed
+    })
+    */
 
 
 
